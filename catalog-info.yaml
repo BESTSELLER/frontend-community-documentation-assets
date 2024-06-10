@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: frontend-community-documentation-assets
+  description: Videos & Images for the FrontEnd community documentation. This needs to be a public repository so we can link to the videos from Backstage
+  annotations:
+    github.com/project-slug: BESTSELLER/frontend-community-documentation-assets
+spec:
+  type: service
+  lifecycle: experimental
+  owner: frontend-community
